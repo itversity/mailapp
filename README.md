@@ -37,12 +37,12 @@ Here are the steps involved to validate sending emails using the test data.
 * Make sure Mongo DB is up and running.
 * Set Environment Variables to connect to the database.
 * Set Environment Variables for Sendgrid API Key and from email.
-* Run `send_mail.py`.
+* Run `app.py`.
 
 ```shell
 export MONGO_HOST=localhost
 export MONGO_PORT=27017
 export SENDGRID_API_KEY=<SENDGRID_API_KEY>
 export FROM_EMAIL=<VERIFIED_SENDGRID_EMAIL>
-python send_mail.py
+python app.py
 ```
